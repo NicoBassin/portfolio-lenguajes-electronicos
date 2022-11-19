@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 #leo la base de datos
-dataf = pd.read_csv('/20221013_ted_talks.csv')
+dataf = pd.read_csv('Python/20221013_ted_talks.csv')
 
 #relleno los datos NaN con 0
 dataf = dataf.fillna(0)
